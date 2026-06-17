@@ -1,0 +1,51 @@
+{
+  "releaseId": "SPRINT-53",
+  "releaseName": "Sprint 53 CMS Siebel Release",
+  "releaseDate": "2026-06-16",
+  "targetRoles": ["Caseworker", "Team Leader"],
+  "crs": [
+    {
+      "crId": "CR2832",
+      "title": "Mandatory Evidence Received check before recalculation",
+      "useCase": "Before recalculating income, caseworker must confirm evidence has been received.",
+      "screen": "Income Details",
+      "fields": ["Evidence Received", "Income Amount", "Recalculate"],
+      "pendoGuideName": "Sprint 53 - Income Evidence Change",
+      "guideSteps": [
+        "Open the customer case.",
+        "Go to Income Details.",
+        "Check Evidence Received.",
+        "Enter updated Income Amount.",
+        "Click Recalculate."
+      ]
+    },
+    {
+      "crId": "CR2898",
+      "title": "Intelligent Arrears",
+      "useCase": "When invalid NINO is entered, Siebel now shows a clearer validation message.",
+      "screen": "Case Summary",
+      "fields": ["NINO", "Validation Message"],
+      "pendoGuideName": "Sprint 53 - NINO Validation Change",
+      "guideSteps": [
+        "Open Case Summary.",
+        "Review the NINO field.",
+        "Enter or verify NINO.",
+        "Read the new validation message if NINO is invalid."
+      ]
+    },
+    {
+      "crId": "CR2912",
+      "title": "Recalculate button disabled until checks complete",
+      "useCase": "Recalculate button remains disabled until mandatory checks are completed.",
+      "screen": "Income Details",
+      "fields": ["Evidence Received", "Verification Status", "Recalculate"],
+      "pendoGuideName": "Sprint 53 - Recalculate Button Change",
+      "guideSteps": [
+        "Open Income Details.",
+        "Confirm Evidence Received.",
+        "Check Verification Status.",
+        "Recalculate button becomes enabled only after checks pass."
+      ]
+    }
+  ]
+}

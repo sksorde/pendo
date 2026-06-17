@@ -1,0 +1,60 @@
+.page {
+  font-family: Arial, sans-serif;
+  padding: 24px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.release-card,
+.left-panel,
+.right-panel {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 20px;
+}
+
+.cr-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.cr-button:hover {
+  background: #eef4ff;
+}
+
+.fields {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.field-chip {
+  background: #fff4cc;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #e0b800;
+}
+
+.primary-button {
+  margin-top: 20px;
+  background: #2563eb;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
