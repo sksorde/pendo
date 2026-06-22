@@ -58,3 +58,108 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+.siebel-shell {
+  margin-top: 24px;
+  border: 1px solid #b7c4d6;
+  background: #fff;
+  color: #1b2a3a;
+  font-family: Arial, sans-serif;
+}
+
+.siebel-topbar {
+  background: #102d4f;
+  color: white;
+  padding: 8px 14px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.siebel-titlebar {
+  background: #eef3f8;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c9d4df;
+}
+
+.siebel-titlebar h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.siebel-titlebar p {
+  margin: 4px 0 0;
+  color: #56687a;
+}
+
+.siebel-action {
+  background: #1f5f99;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 3px;
+}
+
+.siebel-tabs {
+  display: flex;
+  background: #dfe7f0;
+  border-bottom: 1px solid #bac7d4;
+}
+
+.siebel-tab {
+  padding: 10px 16px;
+  border-right: 1px solid #bac7d4;
+  font-size: 13px;
+}
+
+.siebel-tab.active {
+  background: white;
+  font-weight: bold;
+  color: #0b4f8a;
+}
+
+.siebel-body {
+  padding: 16px;
+}
+
+.siebel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.siebel-field {
+  border: 1px solid #c9d4df;
+  background: #f8fafc;
+  padding: 8px;
+}
+
+.siebel-field label {
+  display: block;
+  font-size: 11px;
+  color: #56687a;
+  margin-bottom: 4px;
+}
+
+.siebel-value {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.field-highlight {
+  border: 2px solid #ff9800;
+  background: #fff7e6;
+}
+
+.siebel-recalc {
+  margin-top: 16px;
+}
+
+.siebel-notes {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+  border: 1px solid #c9d4df;
+}
